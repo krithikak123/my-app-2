@@ -30,6 +30,6 @@ pipeline{
        success {
             archiveArtifacts artifacts: 'target/*.war'
             cleanWs()
+       }
     }
-}
 }
